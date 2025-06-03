@@ -68,17 +68,22 @@ WSGI_APPLICATION = 'Estate.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'EstateDB',
+#         'USER' : 'postgres',
+#         'PASSWORD' : 'Anshu@123',
+#         'HOST' : 'localhost',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'EstateDB',
-        'USER' : 'postgres',
-        'PASSWORD' : 'Anshu@123',
-        'HOST' : 'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
