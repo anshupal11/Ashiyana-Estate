@@ -136,6 +136,8 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
+CSRF_TRUSTED_ORIGINS = 'https://ashiyana-estate.onrender.com'
+
 # Email config
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
