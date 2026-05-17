@@ -16,6 +16,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['ashiyana-estate.onrender.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://ashiyana-estate.onrender.com",
+
+    "http://localhost:8000",
+]
 
 # Application definition
 
@@ -136,7 +141,7 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
-CSRF_TRUSTED_ORIGINS = 'https://ashiyana-estate.onrender.com'
+
 
 # Email config
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
