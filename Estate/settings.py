@@ -14,7 +14,7 @@ SECRET_KEY = 'c10nw+ae+^jb4qr6968mu&oi^7&#w5q_tk=79ofa7lfb*iu7o5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://ashiyana-estate.onrender.com]
+ALLOWED_HOSTS = ['https://ashiyana-estate.onrender.com']
 
 
 # Application definition
